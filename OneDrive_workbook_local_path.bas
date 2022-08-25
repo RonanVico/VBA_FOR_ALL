@@ -1,3 +1,6 @@
+Public Sub ExemploDeUso()
+    Debug.print LocalFullName(thisworkbook.path)
+end sub 
 
 Public Function LocalFullName$(ByVal fullPath$)
     'Finds local path for a OneDrive file URL, using environment variables of OneDrive
